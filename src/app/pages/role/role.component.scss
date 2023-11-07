@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#name {
+    font-family: 'Michroma', sans-serif;
+}
+
+button {
+    font-family: 'Michroma', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 70vw;
+}

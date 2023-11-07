@@ -2,3 +2,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Lexend&family=Libre+Franklin:wght@500&family=Noto+Sans+JP&family=Nunito:ital,wght@0,200;0,400;1,700&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Lexend&family=Libre+Franklin:wght@500&family=Michroma&family=Noto+Sans+JP&family=Nunito:ital,wght@0,200;0,400;1,700&family=Roboto:wght@100&display=swap');
+
+
+body {
+    background-color: #02041C;
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+}
