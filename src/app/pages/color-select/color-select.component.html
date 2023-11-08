@@ -1,1 +1,25 @@
-<p>color-select works!</p>
+<div id="title">
+    AmongIUT
+</div>
+
+<div id="name">
+
+</div>
+
+<!-- <div id="color-choice" class="grid grid-cols-4 gap-4">
+    <app-color-selector></app-color-selector>
+</div> -->
+
+<div id="color-choice" class="grid grid-cols-4 gap-4">
+    <ng-container *ngFor="let color of buttonColors">
+        <div class="grid-item flex items-center justify-center">
+            <app-color-selector [color]="color"></app-color-selector>
+        </div>
+    </ng-container>
+</div>
+
+<a routerLink="/waiting" routerLinkActive="active">
+    <app-button id="confirm-choice" class="bg-gray-500">
+        Confirmer
+    </app-button>
+</a>
