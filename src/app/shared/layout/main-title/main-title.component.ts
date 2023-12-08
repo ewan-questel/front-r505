@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-main-title',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./main-title.component.scss']
 })
 export class MainTitleComponent {
-
+  @Input() titleText: string = 'Default Title';
 }

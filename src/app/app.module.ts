@@ -8,6 +8,8 @@ import { RoleComponent } from './pages/role/role.component';
 import { ButtonComponent } from './shared/layout/button/button.component';
 import { MainTitleComponent } from './shared/layout/main-title/main-title.component';
 import { TestComponent } from './shared/test/test.component';
+import { WaitingRoomComponent } from './pages/waiting-room/waiting-room.component';
+import { ColorSelectorComponent } from './shared/layout/color-selector/color-selector.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { TestComponent } from './shared/test/test.component';
     ButtonComponent,
     MainTitleComponent,
     TestComponent,
+    WaitingRoomComponent,
+    ColorSelectorComponent,
   ],
   imports: [
     BrowserModule,
